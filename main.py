@@ -29,6 +29,6 @@ def main():
     if choice == 1:
         return render_template('display.html', image=ricks[getRandom(5)])
     else:
-        return render_template('display.html', image=ricks[getRandom(5)])
+        return render_template('display.html', image=sticks[getRandom(5)])
 
 app.run(debug=True)
